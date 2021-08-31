@@ -2,8 +2,7 @@ version: '3.5'
 
 services:
 
-    up:
+    logger:
       image: devopsdockeruh/simple-web-service
       volumes:
         - ./text.log:/usr/src/app/text.log
-      container_name: logger
