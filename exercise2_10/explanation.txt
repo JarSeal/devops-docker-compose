@@ -1,0 +1,9 @@
+The REQUEST_ORIGIN environment variable had to be
+changed, because of the load-balancer that was
+reverse proxying frontend to be served from port 80
+instead of port 5000. So changing the REQUEST_ORIGIN
+from http://localhost:5000 to http://localhost 
+made all of the buttons to work again. Neither
+Dockerfile needed any changes. This change, however,
+does not route the ping requests through the load-balancer
+(only the exercise 2.8 /api requests).
