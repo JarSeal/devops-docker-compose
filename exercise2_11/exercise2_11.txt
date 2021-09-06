@@ -1,0 +1,13 @@
+I have this three.js and cannon.js starter project on GitHub that I added a development container option to.
+The project can be found here: https://github.com/JarSeal/threejs-starter
+
+You can run the project either locally:
+$ npm install
+$ npm start
+
+or within a Docker container:
+$ docker-compose up
+
+When the project has installed and the source compiled, the app can be viewed at localhost:3000.
+The should be box dropping on a plate and with the mouse, the scene can be rotated.
+Cheers, enjoy! :)
